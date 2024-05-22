@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Five Lives Game</title>
+    <link rel="stylesheet" href="five_lives.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Five Lives Game</h1>
+		<div class="result" id="result"></div>
+        <div class="image-container">
+            <img id="result-image" src="" alt="Result Image" style="display: none;">
+        </div>
+        <div class="clue" id="clue">?????</div>
+        <div class="lives" id="lives">Lives left: <span class="heart">❤❤❤❤❤</span></div>
+        <div class="alphabet" id="alphabet"></div>
+        <div class="input-container">
+            <input type="text" id="guess-input" placeholder="Guess a letter">
+            <button onclick="makeGuess()">Guess</button>
+        </div>
+    </div>
+
+    <script src="five_lives.js"></script>
+</body>
+</html>
